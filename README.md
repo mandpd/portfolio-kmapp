@@ -82,8 +82,8 @@ The tool includes an integration of the neo4j browser tool to allow users to exp
 
 .close {
     position: absolute;
-    top: 15px;
-    right: 35px;
+    top: 50px;
+    right: 80px;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
