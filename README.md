@@ -21,7 +21,7 @@ I led a team of developers to design and develop the tool. I also acted as the P
 
 The tool is designed to be a web-based application, with a React front-end and a Node.js back-end. The back-end uses Azure Blob Storage to store asset contents, and a Neo4j graph database to store the knowledge asset metadata and their relationships. A middleware server responds to client requests and executes business logic leveraging the datastore, database, and LLM APIs. The front-end uses GraphQL to communicate with the middleware server. The tool is architected to be extensible, with the ability to add new types of assets and relationships as needed.
 
-THe tool is deployed in a Kubernetes cluster in Azure, using Azure Kubernetes Service (AKS). The tool is designed to be scalable and fault-tolerant, with multiple instances of the front-end and middleware servers running in the cluster.
+The tool is deployed in a Kubernetes cluster in Azure, using Azure Kubernetes Service (AKS). The tool is designed to be scalable and fault-tolerant, with multiple instances of the front-end and middleware servers running in the cluster.
 
 ## UI Screenshots
 
