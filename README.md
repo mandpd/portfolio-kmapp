@@ -56,6 +56,9 @@ The tool includes an integration of the neo4j browser tool to allow users to exp
 </div>
 
 <style>
+.body {
+    zoom: 1.5;
+}
 .modal {
     display: none;
     position: fixed;
