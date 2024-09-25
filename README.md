@@ -81,13 +81,14 @@ The tool includes an integration of the neo4j browser tool to allow users to exp
 }
 
 .close {
-    position: absolute;
-    top: 50px;
-    right: 80px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+  position: absolute;
+  top: 10px; /* 10px down from the top */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for the element's width */
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 .close:hover,
